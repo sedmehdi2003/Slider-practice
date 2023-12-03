@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon learn</title>
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+        <nav> 
+            <div class="right-header-div">
+                <img class="menu-icon" src="../Frst/intermediate/Icon/hamburger-menu.svg" alt="">
+                <img class="home-icon" src="../Frst/intermediate/Icon/home.svg" alt="">
+                <img class="notif-icon" src="../Frst/intermediate/Icon/notifications.svg" alt="">
+            </div>
+            <div class="mid-header-div">
+                <div search-bar-div>
+                    <button class="search-bar" placeholder="search"></button>
+                </div>
+
+                    <img class="search-icon" src="../Frst/intermediate/Icon/search.svg" alt="">
+                
+            </div>
+            <div class="left-header-div">
+                <button class="login-button">
+                    Login/Signup
+                </button>
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides-div">
+                <div class="item active" id="slide1">
+                    <img src="images/s1.jpg" alt="">
+                    <span>آهنگ هارو زنده تر از اون چیزی که هستن گوش بده</span>
+                </div>
+                <div class="item " id="slide2">
+                    <img src="images/s2.jpg" alt="">
+                    <span style="color:white;">کیفت صدایی که همیشه دنبالش بودی اینجاست</span>
+                </div>
+                <div class="item" id="slide3">
+                    <img src="images/s3.jpg" alt="">
+                    <span>رویا هاتو با صدای بلند گوش بده</span>
+                </div>
+            </div>
+           <div class="buttons-div">
+            <i onclick="setSlide('slide1' , 1)" class="fa-solid fa-circle"></i>
+            <i onclick="setSlide('slide2' , 2)" class="fa-solid fa-circle"></i>
+            <i onclick="setSlide('slide3' , 3)" class="fa-solid fa-circle"></i>
+           </div>
+        </section>
+    </header>
+
+
+
+
+    <script src="JS/Main.js"></script>
+</body>
+</html>

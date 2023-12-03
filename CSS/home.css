@@ -1,0 +1,116 @@
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+.home-icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.notif-icon {
+    
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.menu-icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.mid-header-div{
+    margin-left: 300px;
+}
+.search-bar{
+    position: relative;
+    width: 40px;
+    height: 45px;
+}
+.search-icon {
+    position: absolute;
+    top: .4%;
+    left: 33.3%;
+    width: 35px;
+    height: 35px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+.search-bar:hover{
+    cursor: pointer;
+    
+}
+
+.login-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85px;
+    height: 25px;
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: rgb(49, 49, 49);
+    cursor: pointer;
+    box-shadow:inset 1px 1px 1px rgba(0, 0, 0, .1);
+}
+.login-button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+    /*slider section*/
+
+.slider{
+    position: relative;
+    font-size: 1em; 
+    margin-top: 50px;
+}
+
+.slider .buttons-div {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+    
+}
+
+.slider .buttons-div i{
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.slider .buttons-div i:hover{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.slider .slides-div{
+    
+}
+
+.slider .slides-div .item{
+    position: relative;
+    display: none;
+}
+
+.slider .slides-div .active{
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+}
+
+.slider .slides-div .item span{
+    position: absolute;
+    color: #222;
+    right: 10%;
+    top: 40%;
+    font-size: 1.5em;
+}
+
+.slider .slides-div .item img{
+    width: 100%;
+}
